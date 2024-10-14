@@ -1,0 +1,30 @@
+.header {
+    display: grid;
+    grid-template-columns: 220px auto;
+    align-items: center;
+
+    height: 90px;
+    background: #000;
+
+    &__logo {
+        width: 180px;
+        margin: 0 20px;
+    }
+
+    &__nav-wrap {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__link {
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 500;
+        text-align: center;
+
+        text-decoration: none;
+        color: white;
+    }
+}

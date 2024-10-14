@@ -1,0 +1,13 @@
+@import "./base/reset";
+
+// Component
+@import "../components/header/header";
+@import "../components/nav/nav";
+@import "../components/activity/activity";
+@import "../components/average/average";
+@import "../components/typeActivity/typeActivity";
+@import "../components/score/score";
+@import "../components/nutritionCard/nutritionCard";
+
+// Pages
+@import "../pages/dashboard/dashboard";

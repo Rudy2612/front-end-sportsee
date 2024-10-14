@@ -1,0 +1,45 @@
+.average {
+    position: relative;
+    background: #ff0000;
+    padding: 0;
+    border-radius: 5px;
+
+    width: 100%;
+
+    h2 {
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 500;
+        color: rgb(255, 255, 255, 0.5);
+
+        position: absolute;
+        top: 15px;
+        left: 20px;
+    }
+
+    &-tooltip {
+        width: 40px;
+        background: #fff;
+        padding: 3px 3px;
+
+        p {
+            font-size: 10px;
+            font-family: Roboto;
+            font-weight: 500;
+            color: #000;
+            text-align: center;
+        }
+    }
+
+    &-cursor {
+        width: 100px;
+        height: 100px;
+        background: blue;
+
+        stroke: 1px blue;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}

@@ -1,0 +1,41 @@
+.nav {
+    width: 120px;
+    background: #000;
+
+    height: calc(100vh - 90px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    &__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 64px;
+        height: 64px;
+        background: #fff;
+        border-radius: 6px;
+    }
+
+    &__copyright {
+        margin: 0;
+
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 500;
+        color: #ffffff;
+
+        width: max-content;
+        margin-left: -6px;
+        transform: rotate(-90deg);
+    }
+}

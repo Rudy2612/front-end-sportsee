@@ -1,0 +1,46 @@
+.dashboard {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+
+    &__content {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 20px;
+    }
+
+    &__hello {
+        font-family: Roboto;
+        font-size: 48px;
+        font-weight: 500;
+        color: black;
+        span {
+            color: red;
+        }
+    }
+
+    &__resume {
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    &__container {
+        display: grid;
+        grid-template-columns: auto 258px;
+        grid-gap: 20px;
+    }
+
+    &__row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+
+        margin-top: 28px;
+    }
+
+    &__card-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
