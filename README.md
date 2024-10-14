@@ -45,7 +45,7 @@ Démarrer le serveur
 Cloner le projet
 
 ```bash
-  git clone https://github.com/Rudy2612/SportSee
+  git clone https://github.com/Rudy2612/front-end-sportsee
 ```
 
 Aller dans le répertoire du projet
